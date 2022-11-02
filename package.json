@@ -1,12 +1,14 @@
 {
-  "name": "cls-hooked",
+  "name": "@hodfords/cls-hooked",
   "version": "4.3.0",
   "description": "CLS using AsyncWrap instead of async-listener - Node >= 4.7.0",
   "main": "index.js",
+  "types": "./index.d.ts",
   "files": [
     "index.js",
     "context.js",
-    "context-legacy.js"
+    "context-legacy.js",
+    "index.d.ts"
   ],
   "scripts": {
     "test": "mocha test/*.js & tap test/tap/*.tap.js",
